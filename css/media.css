@@ -1,0 +1,151 @@
+/* media queries */
+@media screen and (min-width:895px)
+{
+
+   .wrapper{
+       
+       /* max-width: 1280px; */
+       /* height: 100%; */       
+   }
+   
+   nav{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+   }
+   nav ul{
+       font-weight:100;
+       align-self: center;
+       justify-content: space-between;
+       width: 37%;
+   }
+
+   #landing{
+  
+       /* margin: 2.5em auto;  */
+      
+      /* font-size: 1.753rem; */
+   
+      
+   
+   }
+
+   #landing button{ 
+       font-weight: bold;
+       /* margin-top: 50px; */
+       transition: .3s;
+   }
+   #landing button:hover{
+    background-color: #C2783A;
+   }
+   #services{ 
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       
+
+   }
+   .service-cards{
+       /* border:  solid red; */
+       height: 34rem;
+     flex-basis: 32%;
+   }
+   #service1{
+   
+   background-image: url('../assets/images/watersports_service.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+   
+   
+   }
+   #service2{
+   background-image: url('../assets/images/boatrental_service.png');
+   
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+    
+       
+   
+   }
+   #service3{
+       background-image: url('../assets/images/fishingtours_service.png');
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+   
+      
+   
+   }
+
+   #about{
+       background-color: #ECF0FA;
+
+         
+   }
+  
+   
+   #cnt-container  {
+    
+       flex-direction: row;
+       justify-content: space-between;
+       
+    
+   }
+   #cnt-container div{
+       flex-basis:50%;
+   margin: auto 0;
+   }
+   .about-img{
+
+    display: inherit;
+ width: 40.78125%;
+}
+   #contact{
+    margin: 8rem 0;
+}
+   .contact-text{
+       /* padding:10px; */
+   }
+ 
+   footer{
+       
+      
+       background-color: #ECF0FA;
+      
+   }
+   footer div{
+       padding: 2% 0%;
+       flex-direction: row;
+      
+       /* justify-content: space-between; */
+       align-items: center;
+     
+     
+   }
+
+  
+footer nav{
+  
+width: 90%;
+justify-content: flex-start;
+    
+}
+footer nav ul{
+    margin: auto;
+  
+}
+footer span{
+    
+    
+    display: flex;
+}
+footer span a{
+    margin-right: 18px
+}
+
+
+   
+}

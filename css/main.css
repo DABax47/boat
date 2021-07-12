@@ -1,0 +1,242 @@
+/* BASE */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+   background-image: url('../assets/images/beechee_bg.png');
+   /* background-image: url('../assets/images/figma.png');
+   opacity: .1; */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+/* padding: 20px 0; */
+}
+
+
+a:visited{
+    color:lightblue;
+}
+a:hover{
+    
+    color: darkslategrey;
+   
+}
+
+i:hover{
+    transform: rotateZ(15deg);
+}
+section{
+    
+    padding: 1rem 0 ;
+    margin: 4rem 0;
+}
+
+figcaption{
+    color: #444444;
+    font-weight: bold;
+    font-size: .75rem;
+
+}
+h2{
+  
+    color: #444444;
+}
+.content{
+    color: #2D2E32;
+}
+
+
+
+   .wrapper{
+       display: flex;
+       flex-direction: column;
+
+   }
+   .max-width{
+       /* width: 66.66666666666666%; */
+       width: 75%;
+       align-self: center;
+       
+
+   }
+   nav{
+       
+       color: white;
+       text-align: center;
+   }
+   nav h1{
+       font-weight:100;
+   }
+   nav ul{
+    
+       font-size: 1.25rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+   }
+ main{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+
+ }
+
+   #landing{
+    color:white;
+    text-align: center;
+   }
+  
+   #landing p{
+       font-weight:200;
+   }
+   #landing button{
+       background-color: #FFAD69;
+       color: white;
+       font-size: 2.5rem;
+       font-weight: bold;
+       padding: 1rem;
+       border: none;
+       margin-top: 1.5rem;
+   }
+   #services{
+   display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* border: solid red 1px; */
+    
+   }
+   .service-cards{
+       font-size: 1.25rem;
+       flex-basis: 10rem;
+       color: white;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   #service1{
+   
+   background-image: url('../assets/images/watersports_service.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+   
+   
+   }
+   #service2{
+   background-image: url('../assets/images/boatrental_service.png');
+   
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+    
+       
+   
+   }
+   #service3{
+       background-image: url('../assets/images/fishingtours_service.png');
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+   
+      
+   
+   }
+
+   #about{
+       width: 100%;
+    background-color: #ECF0FA;    
+    display: flex;
+    justify-content: center;
+   }
+   #cnt-container{
+
+/* border: solid red 1px; */
+    display: flex;
+flex-direction: column-reverse;
+   }
+   #cnt-container h2{
+    padding: 25px 0 18px 0 ;
+text-align: center;
+  
+   }
+   #cnt-container p{
+    padding: 0 0 25px 0 ;
+
+   }
+   .about-img{
+display: none;
+}
+.group-discount-container{
+display: flex;
+justify-content: space-around;
+
+}
+.group-discount-container figure{
+
+    text-align: center;
+}
+.group-discount-container figure img{
+    height: 3.25rem;
+width: 3.25rem;
+}
+
+
+   #contact{
+
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+
+       text-align: center;
+   
+   }
+   
+   .contact-text{
+       
+       padding:18px 0;
+   }
+   .contact{
+   font-weight: 600;
+   font-size: 1.25rem;
+   }
+   footer{
+       background-color: #ECF0FA;
+       display: flex;
+       justify-content: center;
+   }
+   footer div{
+       /* padding: 2% 0%; */
+       
+       /* width: 66.66666666666666%; */
+       
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+     
+   }
+   footer span {
+       text-align: center;
+       padding: 10px 0 ;
+   }
+footer a{
+    font-size: 2.75rem;
+    color:lightblue;
+    transition: .3s;
+}
+
+   footer nav{
+   color:black ;    
+   }
+   footer i{
+    transition: .5s;
+}
