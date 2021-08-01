@@ -1,0 +1,136 @@
+/* media queries */
+@media screen and (min-width:895px)
+{
+
+   
+   .nav{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+   }
+   .nav ul{
+       font-weight:100;
+       align-self: center;
+       justify-content: space-between;
+       width: 37%;
+   }
+
+
+
+   .landing button{ 
+       font-weight: bold;
+       
+       transition: .3s;
+   }
+.landing button:hover{
+    background-color: #C2783A;
+   }
+   #services__container{ 
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       
+
+   }
+   .service-card{
+  
+       height: 34rem;
+     flex-basis: 32%;
+   }
+   .service1{
+   
+   background-image: url('../images/watersports_service.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+   
+   
+   }
+   .service2{
+   background-image: url('../images/boatrental_service.png');
+   
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+    
+       
+   
+   }
+   .service3{
+       background-image: url('../images/fishingtours_service.png');
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+   
+      
+   
+   }
+
+   #about{
+       background-color: #ECF0FA;
+
+         
+   }
+  
+   
+   .about__container  {
+    
+       flex-direction: row;
+       justify-content: space-between;
+       
+    
+   }
+   .about__container  div{
+       flex-basis:50%;
+   margin: auto 0;
+   }
+   .about-img{
+
+    display: inherit;
+ width: 40.78125%;
+}
+.contact__container{
+    margin: 8rem 0;
+}
+
+ 
+   footer{
+       
+      
+       background-color: #ECF0FA;
+      
+   }
+   footer div{
+       padding: 2% 0%;
+       flex-direction: row;
+      
+       /* justify-content: space-between; */
+       align-items: center;
+     
+     
+   }
+
+  
+footer nav{
+  
+width: 90%;
+justify-content: flex-start;
+    
+}
+footer nav ul{
+    margin: auto;
+  
+}
+footer span{
+    
+    
+    display: flex;
+}
+footer span a{
+    margin-right: 18px
+}
+
+
+   
+}
